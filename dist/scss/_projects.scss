@@ -79,6 +79,7 @@
    &_btn {
      opacity: 0;
      line-height: 2rem;
+     font-size:0.8rem;
      color: set-text-color($secondary-color);
      @include transition-ease;
 
