@@ -1,0 +1,39 @@
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  align-items: center;
+  padding-left: 20px;
+  background-image: 
+  linear-gradient(
+    to right,
+    rgba($primary-color, 0.6),
+    rgba($primary-color, 0.3),
+  ),
+  url('../img/profile.jpg');
+  background-position: center top;
+  background-size: cover;
+
+  &_name_intro {
+    font-size: 1rem;
+  }
+
+  &_name {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid white;
+
+    &_last {
+     color: $secondary-color;
+     font-weight:700; 
+    }
+  }
+}
+
+.skills {
+  font-size: 0.9rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+
