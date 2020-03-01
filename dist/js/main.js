@@ -23,3 +23,20 @@ function toggleMenu (){
   }
 }
 
+let nameIntro = document.getElementById('name-intro')
+let nameIntroText = 'Hi, my name is';
+let speed = 300;
+let i = 0;
+function displayNameIntro (){
+  if (i < nameIntroText.length) {
+    nameIntro.innerHTML+= nameIntroText.charAt(i);
+    i++;
+    setTimeout(displayNameIntro, speed)
+  }
+
+  if(i >= nameIntroText.length){
+    document.getElementById('my-name').style.display='block'
+    //document.getElementById('tech-role').style.display='block'
+  }
+}
+displayNameIntro()

@@ -41,6 +41,62 @@
   font-weight: 400;
 }
 
+#my-name {
+  display: none;
+  -webkit-animation: displayName 7s ease-out forwards;
+          animation: displayName 7s ease-out forwards;
+}
+
+#tech-role {
+  opacity: 0;
+  -webkit-animation: displayRole 5s ease-out 6s forwards;
+          animation: displayRole 5s ease-out 6s forwards;
+}
+
+@-webkit-keyframes displayName {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes displayName {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes displayRole {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateY(90deg);
+            transform: rotateY(90deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@keyframes displayRole {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateY(90deg);
+            transform: rotateY(90deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
 .menu-btn {
   position: absolute;
   top: 1rem;
