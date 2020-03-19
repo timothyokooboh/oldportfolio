@@ -25,7 +25,7 @@ function toggleMenu (){
 
 let nameIntro = document.getElementById('name-intro')
 let nameIntroText = 'Hi, my name is';
-let speed = 300;
+let speed = 50;
 let i = 0;
 function displayNameIntro (){
   if (i < nameIntroText.length) {

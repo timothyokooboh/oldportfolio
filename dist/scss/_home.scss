@@ -44,7 +44,7 @@
 
 #tech-role {
 opacity: 0;
-animation: displayRole 5s ease-out 6s forwards;
+animation: displayRole 1s ease-out 2s forwards;
 }
 
 @keyframes displayName {
@@ -58,11 +58,11 @@ animation: displayRole 5s ease-out 6s forwards;
 @keyframes displayRole {
   from {
     opacity: 0;
-    transform: rotateY(90deg);
+    transform: translateY(-30px);
   }
   to {
     opacity: 1;
-    transform: rotateY(0deg);
+    transform: translateY(0px);
   }
 }
 
