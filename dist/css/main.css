@@ -27,7 +27,6 @@
   font-size: 2rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid white;
 }
 
 .home_name_last {
@@ -368,7 +367,7 @@
 }
 
 .projects_items {
-  width: 60vw;
+  width: 80vw;
   margin: 2rem auto 0 auto;
   display: -ms-grid;
   display: grid;
@@ -386,7 +385,7 @@
 
 .projects_item img {
   width: 100%;
-  height: 100%;
+  height: 300px;
 }
 
 .projects_item::after {
